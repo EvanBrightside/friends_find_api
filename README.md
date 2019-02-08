@@ -20,5 +20,5 @@
 * swagger: `https://friends-find-api.herokuapp.com/api-docs/index.html`
 
 ## Example
-# api :GET, 'http://localhost:3000/api/users/:id'
-# api :POST, 'http://localhost:3000/api/users/search?radius=5&&lat=55.75&&lng=37.6167'
+* api :GET, `http://localhost:3000/api/users/:id`
+* api :POST, `http://localhost:3000/api/users/search?radius=5&&lat=55.75&&lng=37.6167`
