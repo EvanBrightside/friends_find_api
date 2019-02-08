@@ -1,24 +1,17 @@
-# README
+#  FRIENDS FIND API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
+* git clone `github.com/EvanBrightside/friends_find_api.git`
+* bundle install
+* cp config/database.yml.example config/database.yml
+* rails db:setup
+* rails db:migrate
+* rails db:seed
+* rails s
 
-Things you may want to cover:
+## Tech
+* Ruby on Rails 5.2.2
+* Ruby 2.6.0
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Usage
+* swagger: `localhost:3000/api-docs/index.html`
