@@ -9,6 +9,8 @@ gem 'pg', '>= 0.18', '< 2.0'
 
 gem 'puma', '~> 3.11'
 
+gem 'sprockets'
+
 gem 'active_model_serializers'
 
 gem 'rswag'
@@ -17,10 +19,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'geokit-rails'
 
+gem 'rspec-rails'
+
 group :development, :test do
   gem 'pry'
   gem 'pry-rails'
-  gem 'rspec-rails'
 end
 
 group :development do
