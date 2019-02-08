@@ -13,5 +13,8 @@
 * Ruby on Rails 5.2.2
 * Ruby 2.6.0
 
-## Usage
+## Local usage
 * swagger: `localhost:3000/api-docs/index.html`
+
+## Heroku usage
+* swagger: `https://friends-find-api.herokuapp.com/api-docs/index.html`
